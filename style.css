@@ -119,18 +119,8 @@ li.index__poroda{
     list-style-type: square;
     
 }
-.content__text__row{
-    display: flex; 
-}
-@media (max-width:755px){
-    .content__text__row{
-        display: flex;
-        font-display: column;
-    }
-}
-
 .content__text_li{
-    width: 130%;
+    width: 90%;
 
     padding: 5px 0 0 1em;
 }
@@ -144,9 +134,21 @@ li.index__poroda{
     float: left;
 	margin: 1ex 1ex 0 0;
 }
+@media (max-width:755px){
+    .picture-left{
+        float: none;
+        margin: 1ex 0 0 1ex;
+    }
+}
 .picture-right{
 	float: right;
 	margin: 1ex 0 0 1ex;
+}
+@media (max-width:755px){
+    .picture-right{
+        float: none;
+        margin: 1ex 0 0 1ex;
+    }
 }
 
 footer {
