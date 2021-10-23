@@ -19,7 +19,6 @@ boby{
 }
 .wrapper {
 	min-height: 100%;
-    /* min-width: 100%; */
 	overflow: hidden;
 
 	display: flex;
@@ -90,8 +89,9 @@ boby{
     min-width: max-content;
     height: max-content;
 
-    padding-left: 5px;
-    padding-right: 8px;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
     padding-bottom: 9px;
 }
 a{
@@ -109,7 +109,6 @@ li{
     padding: 0px 8px;
 
     font-size: 24px;
-
 }
 h1{
     text-align: center;
@@ -130,9 +129,9 @@ li.index__poroda{
 
     padding: 5px 0 0 1em;
 }
-.picture{
-    
-}
+/* .picture{
+
+} */
 .picture-left{
     float: left;
 	margin: 1ex 1ex 0 0;
