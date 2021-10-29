@@ -135,23 +135,64 @@ li.index__poroda{
 .picture-left{
     float: left;
 	margin: 1ex 1ex 0 0;
+    height:max-content;
+    width: 45%;
 }
-@media (max-width:755px){
+@media (max-width:877px){
     .picture-left{
         float: none;
-        margin: 1ex 0 0 1ex;
+        margin: 1ex 0 0 0;
+        width: 100%;
     }
 }
 .picture-right{
 	float: right;
 	margin: 1ex 0 0 1ex;
+    height:max-content;
+    width: 45%;
 }
-@media (max-width:755px){
+@media (max-width:877px){
     .picture-right{
         float: none;
-        margin: 1ex 0 0 1ex;
+        margin: 1ex 0 0 0;
+        width: 100%;
     }
 }
+
+.plagin{
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.plagin_row{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.time{
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    padding: 4px 5px;
+}
+.hello{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+h3{
+    padding-right: 5px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+button{
+    background: #f46b45;
+}
+
 
 footer {
 	background-color: #f5f5f5;
