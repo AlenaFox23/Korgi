@@ -94,7 +94,7 @@ boby{
     padding-right: 7px;
     padding-bottom: 9px;
 }
-a{
+body._pc a{  /* ------------------------------------------------------- */
     font-size: 20px;
     color: #5a4038;
 }
@@ -112,10 +112,11 @@ li{
 }
 h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-style: bold;
     margin-bottom: 5px;
     margin-top: 2px;
+    color: #f08669;
 }
 p{
     text-indent: 1em;
@@ -158,6 +159,60 @@ li.index__poroda{
         width: 100%;
     }
 }
+
+/* -------------------------------------- */
+
+body._touch .content__row {
+    display: flex;
+    flex-direction: column;
+}
+body._touch .menu{
+    font-size: 35px;
+    border: none;
+    padding-top: 0px;
+    max-width: 90%;
+    min-width: max-content;
+    margin: 0 5% 0 5%;
+}
+body._touch ul.menu_li{
+    display: flex;
+    justify-content: space-between;
+}
+body._touch .header__text{
+    flex: 1 1 auto;
+   
+    text-align: center;
+    padding-right: 2%;
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+}
+body._touch .content__text{
+    flex: 1 1 auto;
+    padding: 0px 8px;
+
+    font-size: 35px;
+}
+body._touch h1{
+    font-size: 50px;
+}
+body._touch .content{
+	flex: 1 1 auto;
+
+    margin: 0 1em;
+    margin-bottom: 2em;
+}
+body._touch .picture-left{
+    float: none;
+    margin: 1ex 10% 1ex 10%;
+    width: 80%;
+}
+body._touch .picture-right{
+    float: none;
+    margin: 1ex 10% 1ex 10%;
+    width: 80%;
+}
+
+/* -------------------------------------- */
 
 .plagin{
     background: #f46b45;  /* fallback for old browsers */
