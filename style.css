@@ -159,6 +159,9 @@ li.index__poroda{
         width: 100%;
     }
 }
+.button_top{
+    display: none;
+}
 
 /* -------------------------------------- */
 
@@ -221,6 +224,17 @@ body._touch h2{
 }
 body._touch button{
     font-size: 24px;   
+}
+body._touch .button_top{
+    display: block;
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+    z-index: 10; 
+}
+body._touch #myBtn{
+    height: 35px;
+    background:#ec8612;
 }
 
 /* -------------------------------------- */
