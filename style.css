@@ -14,7 +14,7 @@ ul li{list-style:none;}
 img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
-boby{
+body{
     height: 100%;
 }
 .wrapper {
@@ -211,6 +211,17 @@ body._touch .picture-right{
     margin: 1ex 10% 1ex 10%;
     width: 80%;
 }
+body._touch .time{
+    font-size: 23px;
+    align-items: center;
+}
+body._touch h2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+body._touch button{
+    font-size: 24px;   
+}
 
 /* -------------------------------------- */
 
@@ -222,13 +233,11 @@ body._touch .picture-right{
 .plagin_row{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .time{
     display: flex;
-    /* align-items: center; */
     justify-content: flex-start;
-    padding: 4px 5px;
+    padding: 4px 5px 4px 10px;
 }
 .hello{
     padding: 0 10px;
